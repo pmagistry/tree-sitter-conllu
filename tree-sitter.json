@@ -1,0 +1,37 @@
+{
+  "grammars": [
+    {
+      "name": "conllu",
+      "camelcase": "Conllu",
+      "scope": "source.conllu",
+      "file-types": [
+        "conllu"
+      ],
+      "injection-regex": "^conllu$",
+      "highlights": "./queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Parser for dependency treebanks in CONLLU format",
+    "authors": [
+      {
+        "name": "Pierre Magistry",
+        "email": "pierre.magistry@inalco.fr",
+        "url": "https://pierre.magistry.fr/"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/pmagistry/tree-sitter-conllu"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
