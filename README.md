@@ -33,3 +33,4 @@ into your `~/.config/nvim/queries/conllu/highlights.scm`
 (misc) @string.documentation
 ```
 
+Assuming you also have the nvim-treesitter plugin (https://github.com/nvim-treesitter/nvim-treesitter), you can now run the `:TSInstall conllu` to add the grammar to your setup.
